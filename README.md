@@ -4,7 +4,7 @@ walkout map
 Map of ferguson walkouts across the country festivals. The most up-to-date [geojson file is on S3](https://s3-us-west-2.amazonaws.com/lets-see/walkout.geojson).
 
 Steps:
-* get data from [this google doc](https://docs.google.com/spreadsheets/d/1UWW8ShcE6prusMjRMFWmGhT9X7VtsD1UbvsiqzoI8yE/edit#gid=0)
+* get data from a google doc
 * make a webpage with the geojson data
 
 
