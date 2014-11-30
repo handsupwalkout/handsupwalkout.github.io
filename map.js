@@ -25,8 +25,8 @@ function onEachFeature(feature, layer) {
 $.getJSON( "https://s3-us-west-2.amazonaws.com/lets-see/walkout/walkout.geojson", function( data ) {
   console.log(data);
   window.what = data;
-  L.mapbox.accessToken = 'pk.eyJ1IjoiZHJld3J3aWxzb24iLCJhIjoiUkplQ29iUSJ9.6cM-yTJjzxwfCWUNDOgi8w';
-  var map =   L.mapbox.map('map', 'drewrwilson.kc0jg4g8', { zoomControl: false })
+  L.mapbox.accessToken = 'pk.eyJ1IjoiY29kZWZvcmFtZXJpY2EiLCJhIjoiSTZlTTZTcyJ9.3aSlHLNzvsTwK-CYfZsG_Q';
+  var map =   L.mapbox.map('map', 'codeforamerica.kc52poi6', { zoomControl: false })
   .setView([37.8, -106], 4);
   var myLayer = L.geoJson(data,{
     onEachFeature: onEachFeature
