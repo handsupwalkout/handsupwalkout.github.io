@@ -35,6 +35,11 @@ function onEachFeature(feature, layer) {
           popupString += 'facebook event)</a>';
 
         }
+        if (feature.properties['Time']) {
+          popupString += '<br /><strong>Time:</strong> ';
+          popupString += feature.properties['Time'];
+        }
+
         popupString += '<br /> <strong>Location:</strong> ' + feature.properties['Location'];
         if (feature.properties['More info']) {
           popupString += '<br /> <strong>More info:</strong> ';
