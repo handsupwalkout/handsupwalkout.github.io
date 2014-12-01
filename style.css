@@ -66,7 +66,7 @@ body { margin:0; padding:0; }
 .sidebar-closed #sidebar {
   margin-left: -300px;
 }
-a.logo {
+.logo {
   font-size: 21px;
   color: #2e2e2e;
   float: left;
@@ -79,7 +79,7 @@ a.logo:hover, a.logo:focus {
   outline: none;
 }
 
-a.logo span {
+.logo span.hash {
   color: #FF6C60;
 }
 .top-nav  {
