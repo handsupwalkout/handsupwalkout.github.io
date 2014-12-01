@@ -1,4 +1,5 @@
-$(document).ready(function (){
+
+$(document).ready(function () {
   $('.fa-bars').click(function () {
     $("#container").toggleClass("sidebar-closed");
   });

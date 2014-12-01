@@ -66,6 +66,7 @@ body { margin:0; padding:0; }
 .sidebar-closed #sidebar {
   margin-left: -300px;
 }
+
 .logo {
   font-size: 21px;
   color: #2e2e2e;
